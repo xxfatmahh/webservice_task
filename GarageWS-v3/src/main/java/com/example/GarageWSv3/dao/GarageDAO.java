@@ -12,7 +12,7 @@ public interface GarageDAO extends JpaRepository<Garage, Integer> {
     List<Garage> findByWatcher(String watcher);
     List<Garage> findByName(String name);
 
-    Garage save(Garage car);
+    Garage save(Garage garage);
 
     void deleteById(int id);
 
