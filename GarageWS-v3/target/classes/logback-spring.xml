@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- We used the xml configuration file instead of class cuz it's more clean and mot appropriate in
+ bi projects-->
+<configuration>
+    <property name="LOG_DIR" value="D:/Work/SpringBoot Tasks/GarageWS-v3"/>
+    <!-- Console Appender/ Handler -->
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <!-- File Appender/ Handler -->
+    <appender name="File" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_DIR}/log.log</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="Console"/>
+        <appender-ref ref="File"/>
+    </root>
+</configuration>

@@ -9,6 +9,8 @@ public interface CarsService {
 
     Car getCarById(int id);
 
+    List<Car> filterCarsByName(String name);
+
     void insertCar(Car car);
 
     void updateCar(Car car);

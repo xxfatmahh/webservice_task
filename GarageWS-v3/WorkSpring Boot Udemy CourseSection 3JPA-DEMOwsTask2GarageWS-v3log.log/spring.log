@@ -1,0 +1,250 @@
+2024-05-16T12:27:57.056+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Starting GarageWsV3Application using Java 21.0.2 with PID 11716 (D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3\target\classes started by User in D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3)
+2024-05-16T12:27:57.058+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T12:27:57.136+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-16T12:27:57.138+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-16T12:27:59.906+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-16T12:28:00.057+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 137 ms. Found 2 JPA repository interfaces.
+2024-05-16T12:28:01.177+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-16T12:28:01.192+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T12:28:01.192+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-16T12:28:01.256+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T12:28:01.257+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4118 ms
+2024-05-16T12:28:01.443+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-16T12:28:01.881+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a50b7bf
+2024-05-16T12:28:01.884+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-16T12:28:01.941+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-16T12:28:02.019+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-16T12:28:02.069+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-16T12:28:02.425+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-16T12:28:03.834+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-16T12:28:03.839+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:28:04.451+03:00  WARN 11716 --- [GarageWS-v3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-16T12:28:05.011+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-16T12:28:05.070+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-16T12:28:05.083+03:00  INFO 11716 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Started GarageWsV3Application in 8.72 seconds (process running for 10.105)
+2024-05-16T12:30:11.067+03:00  INFO 11716 --- [GarageWS-v3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:30:11.071+03:00  INFO 11716 --- [GarageWS-v3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-16T12:30:11.080+03:00  INFO 11716 --- [GarageWS-v3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-16T12:30:30.336+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Starting GarageWsV3Application using Java 21.0.2 with PID 6560 (D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3\target\classes started by User in D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3)
+2024-05-16T12:30:30.338+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T12:30:30.413+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-16T12:30:30.413+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-16T12:30:31.423+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-16T12:30:31.495+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+2024-05-16T12:30:32.218+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-16T12:30:32.239+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T12:30:32.239+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-16T12:30:32.320+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T12:30:32.320+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1906 ms
+2024-05-16T12:30:32.568+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-16T12:30:33.108+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43eb570
+2024-05-16T12:30:33.112+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-16T12:30:33.203+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-16T12:30:33.307+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-16T12:30:33.403+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-16T12:30:33.831+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-16T12:30:34.928+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-16T12:30:34.931+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:30:35.341+03:00  WARN 6560 --- [GarageWS-v3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-16T12:30:35.757+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-16T12:30:35.808+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-16T12:30:35.819+03:00  INFO 6560 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Started GarageWsV3Application in 6.124 seconds (process running for 7.178)
+2024-05-16T12:30:53.132+03:00  INFO 6560 --- [GarageWS-v3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:30:53.136+03:00  INFO 6560 --- [GarageWS-v3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-16T12:30:53.145+03:00  INFO 6560 --- [GarageWS-v3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-16T12:31:19.101+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Starting GarageWsV3Application using Java 21.0.2 with PID 13628 (D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3\target\classes started by User in D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3)
+2024-05-16T12:31:19.104+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T12:31:19.182+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-16T12:31:19.183+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-16T12:31:20.289+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-16T12:31:20.381+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 2 JPA repository interfaces.
+2024-05-16T12:31:21.076+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-16T12:31:21.089+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T12:31:21.090+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-16T12:31:21.153+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T12:31:21.154+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1969 ms
+2024-05-16T12:31:21.327+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-16T12:31:21.715+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@97c1886
+2024-05-16T12:31:21.718+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-16T12:31:21.778+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-16T12:31:21.845+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-16T12:31:21.889+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-16T12:31:22.241+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-16T12:31:23.267+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-16T12:31:23.271+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:31:23.702+03:00  WARN 13628 --- [GarageWS-v3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-16T12:31:24.118+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-16T12:31:24.170+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-16T12:31:24.183+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Started GarageWsV3Application in 5.717 seconds (process running for 6.893)
+2024-05-16T12:33:23.608+03:00  INFO 13628 --- [GarageWS-v3] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-16T12:33:23.622+03:00  INFO 13628 --- [GarageWS-v3] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:33:23.627+03:00  INFO 13628 --- [GarageWS-v3] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-16T12:33:23.641+03:00  INFO 13628 --- [GarageWS-v3] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-16T12:33:23.716+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : this is a info message
+2024-05-16T12:33:23.716+03:00  WARN 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : this is a warn message
+2024-05-16T12:33:23.717+03:00 ERROR 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : this is a error message
+2024-05-16T12:33:23.765+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Starting GarageWsV3Application using Java 21.0.2 with PID 13628 (D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3\target\classes started by User in D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3)
+2024-05-16T12:33:23.766+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T12:33:24.132+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-16T12:33:24.150+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2024-05-16T12:33:24.328+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-16T12:33:24.329+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T12:33:24.330+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-16T12:33:24.385+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T12:33:24.386+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 617 ms
+2024-05-16T12:33:24.457+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-05-16T12:33:24.481+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e8bc9e3
+2024-05-16T12:33:24.481+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-05-16T12:33:24.483+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-16T12:33:24.488+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-16T12:33:24.495+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-16T12:33:24.579+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-16T12:33:24.579+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:33:24.864+03:00  WARN 13628 --- [GarageWS-v3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-16T12:33:25.109+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-16T12:33:25.137+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-16T12:33:25.146+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Started GarageWsV3Application in 1.421 seconds (process running for 127.857)
+2024-05-16T12:33:25.150+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-16T12:35:43.313+03:00  INFO 13628 --- [GarageWS-v3] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-16T12:35:43.320+03:00  INFO 13628 --- [GarageWS-v3] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:35:43.321+03:00  INFO 13628 --- [GarageWS-v3] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-05-16T12:35:43.331+03:00  INFO 13628 --- [GarageWS-v3] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-05-16T12:35:43.389+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : this is a info message
+2024-05-16T12:35:43.389+03:00  WARN 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : this is a warn message
+2024-05-16T12:35:43.389+03:00 ERROR 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : this is a error message
+2024-05-16T12:35:43.432+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Starting GarageWsV3Application using Java 21.0.2 with PID 13628 (D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3\target\classes started by User in D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3)
+2024-05-16T12:35:43.433+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T12:35:43.798+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-16T12:35:43.814+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2024-05-16T12:35:43.965+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-16T12:35:43.966+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T12:35:43.967+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-16T12:35:44.020+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T12:35:44.020+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 585 ms
+2024-05-16T12:35:44.095+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-05-16T12:35:44.115+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14462103
+2024-05-16T12:35:44.116+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-05-16T12:35:44.117+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-16T12:35:44.121+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-16T12:35:44.128+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-16T12:35:44.211+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-16T12:35:44.212+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:35:44.395+03:00  WARN 13628 --- [GarageWS-v3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-16T12:35:44.578+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-16T12:35:44.599+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-16T12:35:44.606+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Started GarageWsV3Application in 1.212 seconds (process running for 267.317)
+2024-05-16T12:35:44.609+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-16T12:37:02.572+03:00  INFO 13628 --- [GarageWS-v3] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-16T12:37:02.579+03:00  INFO 13628 --- [GarageWS-v3] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:37:02.580+03:00  INFO 13628 --- [GarageWS-v3] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-05-16T12:37:02.587+03:00  INFO 13628 --- [GarageWS-v3] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-05-16T12:37:02.646+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : this is a info message
+2024-05-16T12:37:02.647+03:00  WARN 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : this is a warn message
+2024-05-16T12:37:02.647+03:00 ERROR 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : this is a error message
+2024-05-16T12:37:02.700+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Starting GarageWsV3Application using Java 21.0.2 with PID 13628 (D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3\target\classes started by User in D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3)
+2024-05-16T12:37:02.701+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T12:37:02.998+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-16T12:37:03.012+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2024-05-16T12:37:03.141+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-16T12:37:03.143+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T12:37:03.143+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-16T12:37:03.169+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T12:37:03.170+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 466 ms
+2024-05-16T12:37:03.234+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-05-16T12:37:03.263+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@365cd6cf
+2024-05-16T12:37:03.264+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-05-16T12:37:03.266+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-16T12:37:03.271+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-16T12:37:03.279+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-16T12:37:03.345+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-16T12:37:03.346+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:37:03.475+03:00  WARN 13628 --- [GarageWS-v3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-16T12:37:03.645+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-16T12:37:03.662+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-16T12:37:03.668+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Started GarageWsV3Application in 1.017 seconds (process running for 346.379)
+2024-05-16T12:37:03.670+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-16T12:37:23.698+03:00  INFO 13628 --- [GarageWS-v3] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-16T12:37:23.706+03:00  INFO 13628 --- [GarageWS-v3] [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:37:23.707+03:00  INFO 13628 --- [GarageWS-v3] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-05-16T12:37:23.718+03:00  INFO 13628 --- [GarageWS-v3] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-05-16T12:37:23.792+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : this is a info message
+2024-05-16T12:37:23.793+03:00  WARN 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : this is a warn message
+2024-05-16T12:37:23.793+03:00 ERROR 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : this is a error message
+2024-05-16T12:37:23.841+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Starting GarageWsV3Application using Java 21.0.2 with PID 13628 (D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3\target\classes started by User in D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3)
+2024-05-16T12:37:23.842+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T12:37:24.195+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-16T12:37:24.215+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2024-05-16T12:37:24.441+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-16T12:37:24.442+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T12:37:24.442+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-16T12:37:24.470+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T12:37:24.471+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 626 ms
+2024-05-16T12:37:24.529+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-05-16T12:37:24.547+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@553bca55
+2024-05-16T12:37:24.547+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-05-16T12:37:24.549+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-16T12:37:24.552+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-16T12:37:24.557+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-16T12:37:24.611+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-16T12:37:24.612+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:37:24.773+03:00  WARN 13628 --- [GarageWS-v3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-16T12:37:24.930+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-16T12:37:24.950+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-16T12:37:24.955+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Started GarageWsV3Application in 1.156 seconds (process running for 367.666)
+2024-05-16T12:37:24.958+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-16T12:37:41.637+03:00  INFO 13628 --- [GarageWS-v3] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-05-16T12:37:41.643+03:00  INFO 13628 --- [GarageWS-v3] [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:37:41.644+03:00  INFO 13628 --- [GarageWS-v3] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-05-16T12:37:41.650+03:00  INFO 13628 --- [GarageWS-v3] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-05-16T12:37:41.760+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Starting GarageWsV3Application using Java 21.0.2 with PID 13628 (D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3\target\classes started by User in D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3)
+2024-05-16T12:37:41.761+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T12:37:42.153+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-16T12:37:42.172+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2024-05-16T12:37:42.420+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-16T12:37:42.422+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T12:37:42.422+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-16T12:37:42.459+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T12:37:42.459+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 694 ms
+2024-05-16T12:37:42.538+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-05-16T12:37:42.565+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b69571f
+2024-05-16T12:37:42.565+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-05-16T12:37:42.567+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-16T12:37:42.570+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-16T12:37:42.576+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-16T12:37:42.679+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-16T12:37:42.679+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:37:42.970+03:00  WARN 13628 --- [GarageWS-v3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-16T12:37:43.224+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-16T12:37:43.242+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-16T12:37:43.248+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Started GarageWsV3Application in 1.524 seconds (process running for 385.959)
+2024-05-16T12:37:43.250+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-16T12:37:44.662+03:00  INFO 13628 --- [GarageWS-v3] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-05-16T12:37:44.669+03:00  INFO 13628 --- [GarageWS-v3] [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:37:44.670+03:00  INFO 13628 --- [GarageWS-v3] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-05-16T12:37:44.677+03:00  INFO 13628 --- [GarageWS-v3] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-05-16T12:37:44.793+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Starting GarageWsV3Application using Java 21.0.2 with PID 13628 (D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3\target\classes started by User in D:\Work\Spring Boot Udemy Course\Section 3\JPA-DEMO\wsTask2\GarageWS-v3)
+2024-05-16T12:37:44.794+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T12:37:45.102+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-16T12:37:45.115+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2024-05-16T12:37:45.233+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-16T12:37:45.233+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T12:37:45.234+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-16T12:37:45.259+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T12:37:45.259+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 460 ms
+2024-05-16T12:37:45.301+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2024-05-16T12:37:45.325+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6940bf9
+2024-05-16T12:37:45.325+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2024-05-16T12:37:45.327+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-16T12:37:45.331+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-16T12:37:45.337+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-16T12:37:45.415+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-16T12:37:45.416+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:37:45.551+03:00  WARN 13628 --- [GarageWS-v3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-16T12:37:45.739+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-16T12:37:45.759+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-16T12:37:45.766+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] c.e.GarageWSv3.GarageWsV3Application     : Started GarageWsV3Application in 1.009 seconds (process running for 388.477)
+2024-05-16T12:37:45.767+03:00  INFO 13628 --- [GarageWS-v3] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-16T12:39:18.933+03:00  INFO 13628 --- [GarageWS-v3] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-05-16T12:39:18.940+03:00  INFO 13628 --- [GarageWS-v3] [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16T12:39:18.940+03:00  INFO 13628 --- [GarageWS-v3] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2024-05-16T12:39:18.945+03:00  INFO 13628 --- [GarageWS-v3] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.

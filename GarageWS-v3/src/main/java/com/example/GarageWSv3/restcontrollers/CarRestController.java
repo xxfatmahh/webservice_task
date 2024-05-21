@@ -13,15 +13,16 @@ import java.util.List;
 @RestController
 @RequestMapping("/car")
 public class CarRestController {
-    private final CarsService carsService;
-
     @Autowired
-    public CarRestController(CarsService carsService) {
-        this.carsService = carsService;
-    }
+    CarsService carsService;
+
+//    @Autowired
+//    public CarRestController(CarsService carsService) {
+//        this.carsService = carsService;
+//    }
 
     @GetMapping("/Get/{id}")
-    public ResponseEntity<Car> getCarById(@PathVariable int id) {
+    public ResponseEntity getCarById(@PathVariable int id) {
         Car car = carsService.getCarById(id);
         if (car != null) {
             return new ResponseEntity<>(car, HttpStatus.OK);
@@ -35,6 +36,11 @@ public class CarRestController {
         List<Car> cars = carsService.getAllCars();
         return cars;
     }
+    @GetMapping("Get/carsByName/{name}")
+    public List<Car> flterCars(@PathVariable String name) {
+        List<Car> cars = carsService.filterCarsByName(name);
+        return cars;
+    }
 
     @PostMapping("post/car")
     public String addCar(@RequestBody Car car) {
@@ -42,6 +48,7 @@ public class CarRestController {
         return "Car inserted Successfully";
 
     }
+
 
     @PutMapping("put/car")
     public String updateCar(@RequestBody Car car) {
@@ -51,11 +58,10 @@ public class CarRestController {
 
     @DeleteMapping("/delete/{id}")
     public String deleteCar(@PathVariable int id) {
-        try {
+
             carsService.deleteCar(id);
             return "Car deleted Successfully ";
-        } catch (CarNotFoundException e) {
-            return "Car not found ";
-        }
+
+
     }
 }
